@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishesh Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+
+    <!-- nav bar -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="./index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img src="./photos/stack-icon.png" alt="stack icon" height="15" />
+          <span
+            id="navlogo"
+            class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
+            >VisheshWebDev</span
+          >
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#featured-3" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- introducton -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./photos/vishesh_1.jpg" class="d-block mx-lg-auto img-fluid" alt="vishesh-image" width="400" height="300" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi there, I'm <span class="inline-block text-blue-500">Vishesh</span></h1>
+            <p class="lead">a full-stack sorcerer enchanting the web with my coding spells and bringing digital dreams to life.</p>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- about me -->
+
+    <div class="container col-xxl-8 px-4 py-5" id="about-me">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 about-me">About Me</h1>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./photos/boy sitting on table_croped.png" class="d-block mx-lg-auto-1 img-fluid" alt="Bootstrap Themes" width="700" height="400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            
+            <p class="lead">"Hey, I'm Vishesh Gupta, a passionate web developer driven by the art of crafting seamless designs and exceptional user experiences. Proficient in HTML and CSS, I'm dedicated to bringing ideas to life. When I'm not coding, you can find me strumming melodies on my guitar, embracing creativity beyond the screen. Join me on this exciting journey as we create impactful projects and make a positive impact in the digital world. Thank you for visiting my portfolio website!"</p>
+         
+          </div>
+        </div>
+      </div>
+
+
+    <!-- My Skills -->
+
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">My Skills</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3">
+              <img src="./photos/css.png" alt="css logo" height="50">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Front End</h3>
+            <ul>
+                <li>html </li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>react</li>
+                <li>bootstrap</li>
+            </ul>
+
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3">
+                <img src="./photos/backend.png" alt="backend logo" height="50">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Back End</h3>
+            <ul>
+                <li>nodejs</li>
+                <li>mysql</li>
+                <li>Mongodb</li>
+            </ul>
+            
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-danger bg-gradient fs-2 mb-3">
+                <img src="./photos/tool.png" alt="tools logo" height="50"> 
+            </div>
+            <h3 class="fs-2 text-body-emphasis">tools</h3>
+            <ul>
+                <li>git</li>
+                <li>github</li>
+                <li>vscode</li>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© copywrite 2023 VisheshWebDev </span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+
+    <!-- script -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>

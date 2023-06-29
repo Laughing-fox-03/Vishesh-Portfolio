@@ -1,0 +1,56 @@
+.text-gray-100 {
+    color: rgb(243 244 246/var(--tw-text-opacity));
+}
+.tracking-wide {
+    letter-spacing: .025em;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.font-bold {
+    font-weight: 700;
+}
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+
+
+.mx-lg-auto{
+    border-radius: 100%;
+}
+
+.text-blue-500{
+    color: #9336B4;
+}
+
+
+.lead{
+    color: #40128B;
+}
+
+
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pb-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    list-style:circle;
+}
+
+
+.container-contact-me{
+    display: grid;
+}
